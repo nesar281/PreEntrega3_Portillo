@@ -1,0 +1,52 @@
+/* css navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    box-shadow: 0px 2px 4px;
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        margin-right: 10px;
+        text-align: right;
+    }
+
+    ul {
+        list-style: none;
+        background-color: hsla(117, 66%, 48%, 0.833);
+        padding: 0px;
+        display: flex;
+        margin: 10px;
+        overflow: hidden;
+        float: left;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        display: block;
+        text-align: center;
+
+        &:hover {
+            background-color: hsl(200, 1%, 42%);
+        }
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+    }
+}
+
+h1 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+}

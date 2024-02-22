@@ -1,0 +1,20 @@
+/*  css footer */
+
+@mixin padding {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: $mainColor;
+    color: #d66e06;
+    @include padding;
+}
+
+.footer-column {
+    margin-top: 30px;
+}
+
+.text-custom-color {
+    color: $secondColor;
+}
